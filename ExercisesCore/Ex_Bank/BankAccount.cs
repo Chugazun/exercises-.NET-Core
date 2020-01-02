@@ -37,5 +37,7 @@ namespace ExercisesCore.Ex_Bank
             return $"Conta: {AccNum}, Titular: {OwnerName}, Saldo: ${Balance.ToString("F2")}";
         }
 
+        //Commit Test
+
     }
 }
