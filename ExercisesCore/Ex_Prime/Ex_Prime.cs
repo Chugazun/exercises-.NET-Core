@@ -7,12 +7,12 @@ namespace ExercisesCore.Ex_Prime
 {
     class Ex_Prime
     {
-        static void Main(string[] agrs)
-        {
-            Console.WriteLine("Insira o número desejado (Positivo)");
-            int num = int.Parse(Console.ReadLine());
-            Console.WriteLine(IsPrime(num));
-        }
+        //static void Main(string[] agrs)
+        //{
+        //    Console.WriteLine("Insira o número desejado (Positivo)");
+        //    int num = int.Parse(Console.ReadLine());
+        //    Console.WriteLine(IsPrime(num));
+        //}
 
         static string IsPrime(int num)
         {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Exercises
+namespace ExercisesCore.Ex_Age
 {
     public class Person
     {
