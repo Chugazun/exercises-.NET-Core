@@ -8,18 +8,18 @@ namespace ExercisesCore.Test_Program
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Random rand = new Random();
-            Player player = new Player(30);
-            Screen sc = new Screen();
+        //static void Main(string[] args)
+        //{
+        //    Random rand = new Random();
+        //    Player player = new Player(30);
+        //    Screen sc = new Screen();
 
-            Game.StartCombat(player, new Monster("Test", rand.Next(10, 21)));
-            player.PlayerBag.AddCard(new Potion());
-            while(Game.GetCurrentMonster().CurrentHp > 0)
-            {
-                sc.PrintScreen();
-            }            
-        }
+        //    Game.StartCombat(player, new Monster("Test", rand.Next(10, 21)));
+        //    player.PlayerBag.AddCard(new Potion());
+        //    while(Game.GetCurrentMonster().CurrentHp > 0)
+        //    {
+        //        sc.PrintScreen();
+        //    }            
+        //}
     }
 }
