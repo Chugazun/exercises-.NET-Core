@@ -20,6 +20,11 @@ namespace ExercisesCore.Test_Deck_LINQ.Entities
             }
         }
 
+        public int CardsLeft()
+        {
+            return Cards.Count;
+        }
+
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();

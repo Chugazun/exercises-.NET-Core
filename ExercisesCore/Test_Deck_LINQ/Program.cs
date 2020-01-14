@@ -13,11 +13,13 @@ namespace ExercisesCore.Test_Deck_LINQ
         {
             Deck deck = new Deck();
             DeckManagement DM = new DeckManagement(deck);
-            
-            foreach (Card card in DM.GetSuits("Diamonds"))
-            {
-                Console.WriteLine(card);
-            }
+            Player player = new Player(0, "Alex");
+
+
+
+            DM.ShuffleDeck();
+            DM.DealCards(player);
+            Console.WriteLine(player);
         }
     }
 }

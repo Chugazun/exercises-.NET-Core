@@ -8,11 +8,13 @@ namespace ExercisesCore.Test_Deck_LINQ.Entities
     class Card
     {
         public string Name { get; set; }
+        public int CardValue { get; set; }
         public Suit Suit { get; set; }
 
         public Card(string name, Suit suit)
         {
             int aux = int.Parse(name);
+            CardValue = aux;
             switch (aux)
             {
                 case 1:
