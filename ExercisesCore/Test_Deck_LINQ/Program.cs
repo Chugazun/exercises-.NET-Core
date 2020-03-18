@@ -9,17 +9,17 @@ namespace ExercisesCore.Test_Deck_LINQ
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Deck deck = new Deck();
-            DeckManagement DM = new DeckManagement(deck);
-            Player player = new Player(0, "Alex");
+        //static void Main(string[] args)
+        //{
+        //    Deck deck = new Deck();
+        //    DeckManagement DM = new DeckManagement(deck);
+        //    Player player = new Player(0, "Alex");
 
 
 
-            DM.ShuffleDeck();
-            DM.DealCards(player);
-            Console.WriteLine(player);
-        }
+        //    DM.ShuffleDeck();
+        //    DM.DealCards(player);
+        //    Console.WriteLine(player);
+        //}
     }
 }
